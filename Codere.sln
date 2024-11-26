@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codere.Aspire.AppHost", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codere.ServiceDefaults", "src\Codere.ServiceDefaults\Codere.ServiceDefaults.csproj", "{30C75DBF-01C1-431A-A4D4-F9FA13E6C9EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codere.TvMaze.Host", "src\Codere.TvMaze\Codere.TvMaze.Host.csproj", "{591FB1DE-3753-4E30-A312-439FA6861446}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{8D57A1D7-F0B8-403B-9505-F7B9461D3081}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{41288E28-762A-49DE-AFCD-F6F60D69CD5D}"
@@ -21,6 +19,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codere.TvMaze.Application", "src\Codere.TvMaze.Application\Codere.TvMaze.Application.csproj", "{9310E669-FD07-43CE-8B57-150F17D77F94}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codere.TvMaze.Infrastructure", "src\Codere.TvMaze.Infrastructure\Codere.TvMaze.Infrastructure.csproj", "{D4CCA616-8B2F-41C1-9367-72806B1F17CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codere.TvMaze.Host", "src\Codere.TvMaze.Host\Codere.TvMaze.Host.csproj", "{DEB7E542-4335-48D4-979B-91F0E04BD474}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,10 +36,6 @@ Global
 		{30C75DBF-01C1-431A-A4D4-F9FA13E6C9EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30C75DBF-01C1-431A-A4D4-F9FA13E6C9EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30C75DBF-01C1-431A-A4D4-F9FA13E6C9EB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{591FB1DE-3753-4E30-A312-439FA6861446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{591FB1DE-3753-4E30-A312-439FA6861446}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{591FB1DE-3753-4E30-A312-439FA6861446}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{591FB1DE-3753-4E30-A312-439FA6861446}.Release|Any CPU.Build.0 = Release|Any CPU
 		{756C8327-6BA1-4AE1-BE3C-3AF8C20608E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{756C8327-6BA1-4AE1-BE3C-3AF8C20608E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{756C8327-6BA1-4AE1-BE3C-3AF8C20608E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -56,15 +52,19 @@ Global
 		{D4CCA616-8B2F-41C1-9367-72806B1F17CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4CCA616-8B2F-41C1-9367-72806B1F17CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4CCA616-8B2F-41C1-9367-72806B1F17CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEB7E542-4335-48D4-979B-91F0E04BD474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEB7E542-4335-48D4-979B-91F0E04BD474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEB7E542-4335-48D4-979B-91F0E04BD474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEB7E542-4335-48D4-979B-91F0E04BD474}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{591FB1DE-3753-4E30-A312-439FA6861446} = {8D57A1D7-F0B8-403B-9505-F7B9461D3081}
 		{756C8327-6BA1-4AE1-BE3C-3AF8C20608E5} = {41288E28-762A-49DE-AFCD-F6F60D69CD5D}
 		{683AF465-8F0D-4FEB-AC10-7E3040BDD547} = {EA4F1177-652A-4034-83CA-2355B13C118A}
 		{9310E669-FD07-43CE-8B57-150F17D77F94} = {8D57A1D7-F0B8-403B-9505-F7B9461D3081}
 		{D4CCA616-8B2F-41C1-9367-72806B1F17CE} = {8D57A1D7-F0B8-403B-9505-F7B9461D3081}
+		{DEB7E542-4335-48D4-979B-91F0E04BD474} = {8D57A1D7-F0B8-403B-9505-F7B9461D3081}
 	EndGlobalSection
 EndGlobal

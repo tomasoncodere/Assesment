@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Codere.TvMaze\Codere.TvMaze.Host.csproj" />
+    <ProjectReference Include="..\Codere.TvMaze.Host\Codere.TvMaze.Host.csproj" />
     <ProjectReference Include="..\deploy\Codere.TvMaze.Migrations\Codere.TvMaze.Mongo.csproj" />
   </ItemGroup>
 
